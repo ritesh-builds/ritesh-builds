@@ -1,0 +1,21 @@
+"use strict"; // treat all js code in newer version.
+//alert(3 + 3); // we are using alert function to show the output in browser. and this code is not working because we are using nodejs not browser.
+console.log("Hello World !!"), console.log(1+1);
+
+let name1 = "Ritesh";
+let age = 20;
+let isStudent = true;
+let hobbies = ["reading", "gaming", "coding"];
+let address = {
+    city: "Delhi",
+    state: "Delhi",
+    country: "India"
+};
+
+console.table([name1,age,hobbies,address,isStudent]);
+console.log(typeof "Ritesh"); // string
+console.log(typeof null); 
+
+console.log(typeof hobbies); 
+console.log(typeof undefined); 
+console.log(typeof name1); 
