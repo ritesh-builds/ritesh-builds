@@ -24,6 +24,19 @@ if (!Array.prototype.mymap){
    }
 }
 
+if (!Array.prototype.myfilter){
+Array.prototype.myfilter = function(userFn){
+for(let i = 1; i <= this.length; i++){
+    if(userFn(this[i])){
+        result.push(this[i]);
+    }
+}
+    const result = [];
+     return result;
+}
+
+}
+
 const arr = [1,2,3,4,5];
  
 // Error: forEach fn does not exist on arr variable.
@@ -78,3 +91,23 @@ console.log(n2)
 // .filter() — Sirf un rasgullon ko nikalta hai jo fresh hain
 
 // .reduce() — Saare rasgullon ko mila ke ek final meetha bana deta hai (jaise sum, product)  }
+
+
+
+
+
+
+//  filter  kya krta hai ? return krta hai ek new array ko.
+ // { b JavaScript mein ek array method hai jo har element pe check lagata hai, aur jo element
+ //  condition pass karte hain, unko naya array mein return karta hai.  }
+
+// syntax
+   
+// array.filter(function(element, index, array) {
+//   // condition
+//   return true or false;
+// });
+
+const n3 = arr.filter((e) => e % 2 == 0)
+console.log(n3)
+
