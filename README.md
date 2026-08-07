@@ -1,10 +1,12 @@
 # Hi there 👋, I'm Ritesh Kumar
 
-### 💻 Java Backend Developer | Spring Boot Enthusiast | Problem Solver
+### 💻 Java Backend Developer exploring React to build complete web applications.
 
-I'm a Computer Science student passionate about building scalable backend applications using **Java**, **Spring Boot**, and **MySQL**.
+# Hi 👋, I'm Ritesh Kumar
 
-I enjoy learning how things work internally—from JDBC and Servlets to Spring Data JPA, Hibernate, and REST APIs. Currently, I'm focused on becoming a strong Java Backend Engineer by building real-world projects and continuously improving my problem-solving skills.
+### Full-Stack Developer (Java + React)
+
+Building scalable backend applications with **Java & Spring Boot** and interactive user interfaces with **React**.
 
 ---
 
