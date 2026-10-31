@@ -6,7 +6,7 @@
 
 ### Full-Stack Developer (Java + React)
 
-Building scalable backend applications with **Java & Spring Boot** and interactive user interfaces with **React**.
+Building scalable backend applications with **Java & Spring Boot** and interactive user interfaces with **React** and **NextJs**.
 
 ---
 
